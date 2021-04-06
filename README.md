@@ -3,7 +3,6 @@
 [![Gem Version](http://img.shields.io/gem/v/unitwise.svg?style=flat)](https://rubygems.org/gems/unitwise)
 [![Build Status](http://img.shields.io/travis/joshwlewis/unitwise.svg?style=flat)](https://travis-ci.org/joshwlewis/unitwise)
 [![Dependency Status](http://img.shields.io/gemnasium/joshwlewis/unitwise.svg?style=flat)](https://gemnasium.com/joshwlewis/unitwise)
-[![Coverage Status](http://img.shields.io/coveralls/joshwlewis/unitwise.svg?style=flat)](https://coveralls.io/r/joshwlewis/unitwise)
 [![Code Climate](http://img.shields.io/codeclimate/github/joshwlewis/unitwise.svg?style=flat)](https://codeclimate.com/github/joshwlewis/unitwise)
 ![Analytics](https://ga-beacon.appspot.com/UA-49481499-1/joshwlewis/unitwise?pixel)
 
