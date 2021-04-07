@@ -264,6 +264,18 @@
   :metric: true
   :special: true
   :arbitrary: false
+- :names: delta Celsius
+  :symbol: "Δ°C"
+  :primary_code: "[deltaC]"
+  :secondary_code: "[DELTAC]"
+  :scale:
+    :value: 1
+    :unit_code: K
+  :classification: heat
+  :property: temperature
+  :metric: true
+  :special: false
+  :arbitrary: false
 - :names: tesla
   :symbol: T
   :primary_code: T
@@ -2231,6 +2243,18 @@
   :property: temperature
   :metric: false
   :special: true
+  :arbitrary: false
+- :names: delta Fahrenheit
+  :symbol: "Δ°F"
+  :primary_code: "[deltaF]"
+  :secondary_code: "[DELTAF]"
+  :scale:
+    :value: 5
+    :unit_code: K/9
+  :classification: heat
+  :property: temperature
+  :metric: false
+  :special: false
   :arbitrary: false
 - :names: degree Rankine
   :symbol: "°R"

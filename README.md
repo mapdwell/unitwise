@@ -161,6 +161,27 @@ Exponentiation is also supported.
 # => #<Unitwise::Measurement value=1 unit=liter>
 ```
 
+
+### Temperature and differential temperature
+There are two notions of temperature which may be desired when converting between units.
+
+#### Temperature
+One degree kelvin is very cold: 
+```ruby
+Unitwise(1, 'K').convert_to('[degF]')
+# => #<Unitwise::Measurement value=-457.87 unit=[degF]>
+```
+
+#### Differential temperature
+One degree kelvin is equivalent to 9/5 times one degree Fahrenheit.
+```ruby
+Unitwise(1, 'K').convert_to('[deltaF]')
+# => #<Unitwise::Measurement value=9/5 unit=[deltaF]>
+```
+
+
+
+There are `[deltaF]` and `[deltaC]` units available for differential Fahrenheit and Celsius degrees.
 ### Unit Names and Atom Codes
 
 This library is based around the units in the UCUM specification, which is
