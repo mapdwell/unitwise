@@ -179,8 +179,6 @@ Unitwise(1, 'K').convert_to('[deltaF]')
 # => #<Unitwise::Measurement value=9/5 unit=[deltaF]>
 ```
 
-
-
 There are `[deltaF]` and `[deltaC]` units available for differential Fahrenheit and Celsius degrees.
 ### Unit Names and Atom Codes
 
