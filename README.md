@@ -166,14 +166,14 @@ Exponentiation is also supported.
 There are two notions of temperature which may be desired when converting between units.
 
 #### Temperature
-One degree kelvin is very cold: 
+One kelvin is very cold: 
 ```ruby
 Unitwise(1, 'K').convert_to('[degF]')
 # => #<Unitwise::Measurement value=-457.87 unit=[degF]>
 ```
 
 #### Differential temperature
-One degree kelvin is equivalent to 9/5 times one degree Fahrenheit.
+One kelvin is equivalent to 9/5 times one degree Fahrenheit.
 ```ruby
 Unitwise(1, 'K').convert_to('[deltaF]')
 # => #<Unitwise::Measurement value=9/5 unit=[deltaF]>
